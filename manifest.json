@@ -1,0 +1,12 @@
+{
+    "runtime":{
+        "majorVersion": "8"
+    },
+    "command": "java -jar simple-service-1.0-SNAPSHOT.jar",
+    "release": {
+        "build": "20181205Build",
+        "commit": "PascalFuget",
+        "version": "1.0"
+    },
+    "notes": "REST to handle OBCS event push"
+}
