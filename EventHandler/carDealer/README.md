@@ -25,7 +25,7 @@ The command createACCSzip.cmd in the NB-OBCSEventHandler directory is an example
 Go to your ACCS console, create a JavaSE application with 2 occurences 2 Gb RAM each and upload the zip file to run it.
 That's it, now get the URL of your application in the ACCS console.
 Get the certificate of the endpoint URL provided by ACCS.
-Replace CRLF by /n in the cacert.
+Replace CRLF by \n in the cacert.
 Go in EventHandler/carDealer and modify the subscribe.sh to put your cacert and your ACCS URL in the callbackURL.
 
 You need the cardealer blockchain deployed in OBCS.
